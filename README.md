@@ -51,7 +51,7 @@ A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox*
 - **Engine:** Roblox (Luau)
 - **Gameplay Systems:** Card deck/queue, mana regen, lane pathing, tower AI, health/damage
 - **UI:** Health hearts, mana bar with cap, hand of cards, next card preview
-- **Networking:** Server‑authoritative spawning and combat resolution (typical Roblox pattern)
+- **Networking:** Server‑authoritative spawning and combat resolution (client Sync and Desync for lag improvements)
 
 # 📂 Suggested Project Structure
 
