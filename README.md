@@ -1,7 +1,19 @@
 # Luminth
 
 A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox**. Play across **three bridges (lanes)**, deploy unit and spell **cards** using **mana**, and outsmart your opponent to **destroy their towers** before they destroy yours.
-(Core game code transfered over, project directory, assets, and exact file structure is not the same)
+
+**Status:** Partial code drop for portfolio (not immediately runnable).
+**Why:** Proprietary/large assets and project-specific file structure are excluded.
+
+## What this shows
+- Core game/logic modules I wrote
+- Networking/state systems
+- Key patterns: (e.g., server-authoritative actions, data-driven configs)
+
+## What’s missing
+- Assets: models, textures, audio (`/Assets`)  
+- Private services / API keys  
+- Full project structure (tooling/workspace files)
 ![Luminth gameplay](./media/screenshot.png)
 
 # ✨ Highlights
@@ -39,13 +51,6 @@ A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox*
 - **Gameplay Systems:** Card deck/queue, mana regen, lane pathing, tower AI, health/damage
 - **UI:** Health hearts, mana bar with cap, hand of cards, next card preview
 - **Networking:** Server‑authoritative spawning and combat resolution (typical Roblox pattern)
-
-# 🚀 Local Development
-
-1. **Clone the repo** and open in **Roblox Studio**.
-2. If you use Rojo/Wally, start your sync/watch processes (optional).
-3. Press **Play** to test solo; use **Start Server** with multiple clients to test PvP.
-4. Use **Team Create** or version control (Git) for collaboration.
 
 # 📂 Suggested Project Structure
 
