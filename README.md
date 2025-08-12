@@ -64,14 +64,6 @@ A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox*
 README.md
 ```
 
-# 🗺️ Roadmap
-
-- More unit/spell cards
-- Deck builder & matchmaking
-- Emotes/taunts and cosmetics
-- Replays and spectate mode
-- Ranked ladder and seasons
-
 # 📝 License
 
 MIT (or your preferred license).
