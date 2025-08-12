@@ -1,7 +1,7 @@
 # Luminth
 
 A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox**. Play across **three bridges (lanes)**, deploy unit and spell **cards** using **mana**, and outsmart your opponent to **destroy their towers** before they destroy yours.
-
+(Core game code transfered over, project directory, assets, and exact file structure is not the same)
 ![Luminth gameplay](./media/screenshot.png)
 
 # ✨ Highlights
