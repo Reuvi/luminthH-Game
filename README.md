@@ -64,9 +64,6 @@ A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox*
 README.md
 ```
 
-# 📝 License
-
-MIT (or your preferred license).
 
 # 🙌 Credits
 
