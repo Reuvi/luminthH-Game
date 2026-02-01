@@ -17,7 +17,7 @@ A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox*
 - Private services / API keys  
 - Full project structure (tooling/workspace files)
 
-# ✨ Highlights
+#  Highlights
 
 - **3 Bridges (Lanes):** Classic left / center / right pathing for lane strategy.
 - **Card Summoning:** Drag‑and‑drop (or click) to deploy units and cast spells.
@@ -26,7 +26,7 @@ A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox*
 - **Clean UI:** Health, mana bar, card queue, and “next card” preview.
 - **Optimized for Roblox:** Lightweight assets and performant Lua systems.
 
-# 🎮 How to Play
+#  How to Play
 
 1. **Queue into a match** and spawn in on your island.
 2. **Earn mana over time** (up to a max cap). Stronger cards cost more mana.
@@ -34,37 +34,21 @@ A fast, real‑time **3D Clash Royale–style arena battler** built in **Roblox*
 4. **Units auto‑path** toward enemy towers. Use spells/support to swing trades.
 5. **Destroy the enemy’s main tower** to win the match.
 
-# 🃏 Cards & Mana (Core Concepts)
+# Cards & Mana (Core Concepts)
 
 - **Hand:** A rotating set of cards. When you play one, a new card enters the queue.
 - **Costs:** Every card consumes **mana**; manage timing to avoid being starved.
 - **Unit Types:** Melee, ranged, splash, tank, and utility.
 - **Spells:** Direct damage, stuns, slows, heals, or area control (as available).
 
-# 🧭 Controls
+#  Controls
 
 - **PC:** Click a card to select → click a valid tile/lane to deploy.
 - **Gamepad / Mobile:** Tap/select a card → tap the map to deploy.
 
-# 🛠️ Tech Notes
+#  Tech Notes
 
 - **Engine:** Roblox (Luau)
 - **Gameplay Systems:** Card deck/queue, mana regen, lane pathing, tower AI, health/damage
 - **UI:** Health hearts, mana bar with cap, hand of cards, next card preview
 - **Networking:** Server‑authoritative spawning and combat resolution (client Sync and Desync for lag improvements)
-
-# 📂 Suggested Project Structure
-
-```
-/src
-  /client            # UI, input
-  /server            # spawning, combat, towers
-  /shared            # constants, card defs, types
-/media               # screenshots and promo assets
-README.md
-```
-
-
-# 🙌 Credits
-
-Built by **LumintH Studios**.
